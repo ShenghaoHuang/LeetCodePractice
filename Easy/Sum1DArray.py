@@ -7,7 +7,7 @@
 #             value_sum.append(sum(value))
 #         return value_sum
 
-
+#https://leetcode.com/problems/running-sum-of-1d-array/submissions/
 #Faster solution run time
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
