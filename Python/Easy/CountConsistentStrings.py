@@ -5,7 +5,7 @@ to use a set for faster run time.
 """
 
 class Solution:
-    def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
+    def countConsistentStrings(self, allowed: str, words) -> int:
         allowed_count = len(words)
         #letters = [letter for letter in allowed]
         letters = set(allowed)
